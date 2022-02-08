@@ -4,13 +4,15 @@
     text-decoration:none;
 }
 
-
-.head-image{
-    width:500px;
-    height:350px;
+.head-image img{
+    width:100%;
+    
 }
 
-.content-image{
-    width:500px;
-    height:350px;
+
+
+
+.content-image img{
+    width:100%;
+    height:100%;
 }
