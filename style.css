@@ -8,17 +8,19 @@
 
 #header{
     background-image: url("Img/bg-desktop.svg");
+    background-image: linear-gradient(to right,#0308f7, #01eeff);
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center center;
     opacity:1;
-    
     margin:0px;
+    width:100%;
    
 }
 
-#menu{
-    
+.navbar-toggler{
+    color:black;
+    font-size:40px;
 }
 
 .head-image img{
