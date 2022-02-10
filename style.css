@@ -15,32 +15,41 @@
     opacity:1;
     margin:0px;
     width:100%;
+    height:650px;
    
 }
+
+.head-image img{
+    width:100%;  
+}
+
+
+#menu{
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+}
+
+#menu .nav-link {
+    color:#fff;
+    font-size:17px;
+    margin:0px 10px 0px 10px;
+}
+#menu .nav-link:hover{
+    color:#01eeff;
+}
+
 
 .navbar-toggler{
     color:black;
     font-size:40px;
 }
 
-.head-image img{
-    width:100%;
-
-    
-}
-
-.navbar{
-    padding-top:0px !important;
-    padding-bottom:0px !important;
-    
-}
-.navbar-toggler{
-    color:black;
-}
-
 
 
 .content-image img{
-    width:100%;
-    height:100%;
+    height:auto;
+}
+
+#about, #community{
+    height:400px;
 }
