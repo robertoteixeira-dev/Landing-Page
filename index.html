@@ -14,49 +14,59 @@
 <body>
     <div class="container-fluid">
 
-        <div id="header" class="col-12">
 
-            <nav id="menu" class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
 
-                    <a class="navbar-brand" href="#">YourBuddy</a>
+                <a class="navbar-brand" href="#">YourBuddy</a>
 
-                    <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Community</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Community</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
+        <div id="header" class="col-12">
             <div class="head-container d-flex flex-row">
 
-                <div class="head-image w-50">
-                    <img src="Img/Image-01.png" alt="First Image">
+                <div id="head-image" class="carousel slide w-50" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Img/pexels-pavel-danilyuk-7120409.jpg" class="d-block w-100" alt="First Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/pexels-julia-m-cameron-4144144.jpg" class="d-block w-100" alt="Second Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/pexels-yan-krukov-7314821.jpg" class="d-block w-100" alt="Third Image">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="head-content flex-column w-50">

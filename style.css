@@ -6,27 +6,32 @@
 }
 
 
+
 #header{
-    background-image: url("Img/bg-desktop.svg");
-    background-image: linear-gradient(to right,#0308f7, #01eeff);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center center;
-    opacity:1;
-    margin:0px;
+    padding-left:0px !important;
     width:100%;
+    height:575px;
+    background:gray;
+}
+
+.head-content{
+    background:lightblue;
+}
+
+.carousel-item img{
+    height:575px;
+    width:100%;
+}
+
+.head-image{
     height:650px;
-   
 }
-
-.head-image img{
-    width:100%;  
-}
-
 
 #menu{
     padding-top:0px !important;
     padding-bottom:0px !important;
+    background:blue;
+    height:70px;
 }
 
 #menu .nav-link {
