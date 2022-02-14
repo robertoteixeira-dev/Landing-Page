@@ -18,14 +18,14 @@
     background:lightblue;
 }
 
-.carousel-item img{
+.head-image{
+    background-image: url(Img/pexels-keira-burton-6146931.jpg);
+    background-size:cover;
+    background-position:center center;
+    width:50%;
     height:575px;
-    width:100%;
 }
 
-.head-image{
-    height:650px;
-}
 
 #menu{
     padding-top:0px !important;
@@ -51,10 +51,36 @@
 
 
 
-.content-image img{
-    height:auto;
+.about-image{
+    background-image: url(Img/pexels-cottonbro-5053740.jpg);
+    background-size:cover;
+    background-position:center center;
+    width:50%;
+}
+
+.community-image{
+    background-image: url(Img/pexels-elevate-1267697.jpg);
+    background-size:cover;
+    background-position:center center;
+    width:50%;
 }
 
 #about, #community{
-    height:400px;
+    height:500px;
+}
+
+#comments{
+    height:500px;
+    background:lightcoral;
+}
+
+#pricing{
+    height:500px;
+    background:lightseagreen;
+}
+
+#footer{
+    width:100%;
+    height:350px;
+    background:black;
 }
